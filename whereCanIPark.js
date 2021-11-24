@@ -1,15 +1,15 @@
-const whereCanIPark = function (spots, vehicle) {
+const whereCanIPark = function(spots, vehicle) {
   let checker = "";
   switch (vehicle) {
-    case "regular":
-      checker = "R";
-      break;
-    case "small":
-      checker = "RS";
-      break;
-    case "motorcycle":
-      checker = "RSM";
-      break;
+  case "regular":
+    checker = "R";
+    break;
+  case "small":
+    checker = "RS";
+    break;
+  case "motorcycle":
+    checker = "RSM";
+    break;
   }
 
   for (let y = 0; y < spots.length; y++) {
@@ -56,4 +56,4 @@ console.log(whereCanIPark(
     ['S', 'r', 'S', 'M', 'm', 'S']
   ],
   'motorcycle'
-))
+));

@@ -8,7 +8,7 @@ const conditionalSum = function(values, condition) {
     }
   }
   return total;
-}
+};
 
 console.log(conditionalSum([1, 2, 3, 4, 5], "even"));
 console.log(conditionalSum([1, 2, 3, 4, 5], "odd"));

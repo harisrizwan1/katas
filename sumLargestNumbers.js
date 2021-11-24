@@ -1,4 +1,4 @@
-const sumLargestNumbers = function (data) {
+const sumLargestNumbers = function(data) {
   let first = 0;
   let second = 0;
   for (let i of data) {
@@ -12,7 +12,7 @@ const sumLargestNumbers = function (data) {
     }
   }
   return first + second;
-}
+};
 
 console.log(sumLargestNumbers([1, 10]));
 console.log(sumLargestNumbers([1, 2, 3]));
